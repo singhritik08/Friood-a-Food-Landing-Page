@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friood</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body class="bg-white text-gray-900">
+    <header class="p-4 shadow-md animate__animated animate__fadeInDown animate__delay-.5s">
+        <nav class="container mx-auto flex justify-between items-center">
+            <div class="text-2xl font-bold text-orange-500">Friood</div>
+            <ul class="hidden md:flex space-x-6">
+                <li><a href="#home" class="text-gray-700 hover:text-orange-500 font-medium transition duration-300">Home</a></li>
+                <li><a href="#about" class="text-gray-700 hover:text-orange-500 font-medium transition duration-300">About Us</a></li>
+                <li><a href="#menu" class="text-gray-700 hover:text-orange-500 font-medium transition duration-300">Menu</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-orange-500 font-medium transition duration-300">Contact us</a></li>
+            </ul>
+            <div class="flex space-x-4 items-center">
+                <button class="border border-orange-500 text-orange-500 px-4 py-2 rounded-lg hover:bg-orange-500 hover:text-white transition duration-300 transform hover:scale-105">Sign in</button>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="relative flex items-center justify-center h-[500px] bg-orange-100 p-8 rounded-lg mx-4 md:mx-auto md:w-3/4 mt-8">
+        <div class="absolute inset-0 bg-cover bg-center rounded-lg" style="background-image: url('Assests/header_img.png');"></div>
+        <div class="relative z-10 text-white text-center max-w-lg">
+            <h1 class="text-4xl font-bold">Order your favourite food here</h1>
+            <p class="mt-4 text-lg animate-fadeIn delay-200">Delicious meals delivered right to your doorstep.</p>
+            <a href="#menu" class="mt-6 inline-block bg-orange-500 text-white px-6 py-3 rounded-full text-lg font-semibold shadow-lg hover:bg-orange-600 transition duration-300 transform hover:scale-105">Explore Our Menu</a>
+        </div>
+    </section>
+    
+    <section id="menu" class="container mx-auto my-16 text-center">
+        <h2 class="text-3xl font-bold">Explore our menu</h2>
+        <p class="text-gray-600 mt-2">Discover a variety of delicious dishes carefully crafted for you.</p>
+        <div class="mt-6 flex flex-wrap justify-center gap-6">
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_1.png" class="w-full h-full object-cover" alt="Salad">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_2.png" class="w-full h-full object-cover" alt="Rolls">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_3.png" class="w-full h-full object-cover" alt="Deserts">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_4.png" class="w-full h-full object-cover" alt="Sandwich">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_5.png" class="w-full h-full object-cover" alt="Cake">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_6.png" class="w-full h-full object-cover" alt="Pasta">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_7.png" class="w-full h-full object-cover" alt="Pasta">
+            </div>
+            <div class="w-27 h-27 rounded-full overflow-hidden border-2 border-gray-300 transform hover:scale-105 transition duration-300">
+                <img src="Assests/menu_8.png" class="w-full h-full object-cover" alt="Pasta">
+            </div>
+        </div>
+    </section>
+    
+    <section id="top-dishes" class="container mx-auto my-16">
+        <h2 class="text-3xl font-bold text-center">Top dishes</h2>
+        <div class="mt-6 grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_1.png" class="w-full h-48 object-cover" alt="Greek Salad">
+                <h3 class="text-xl font-semibold mt-2">Greek Salad</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹360</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_2.png" class="w-full h-48 object-cover" alt="Veg Salad">
+                <h3 class="text-xl font-semibold mt-2">Veg Salad</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹540</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_3.png" class="w-full h-48 object-cover" alt="Clover Salad">
+                <h3 class="text-xl font-semibold mt-2">Clover Salad</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹480</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_4.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Chicken Salad</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_5.png" class="w-full h-48 object-cover" alt="Clover Salad">
+                <h3 class="text-xl font-semibold mt-2">Lasagna Rolls</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹480</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_6.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Peri Peri Rolls</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_7.png" class="w-full h-48 object-cover" alt="Clover Salad">
+                <h3 class="text-xl font-semibold mt-2">Chicken Rolls</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹480</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_8.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Veg Rolls</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_9.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Ripple Cream</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_10.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Fruit Ice Cream</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_11.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Jar Ice Cream</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+            <div class="rounded-lg overflow-hidden shadow-lg p-4 bg-white transform hover:scale-105 transition duration-300">
+                <img src="Assests/food_12.png" class="w-full h-48 object-cover" alt="Chicken Salad">
+                <h3 class="text-xl font-semibold mt-2">Vanilla Ice Cream</h3>
+                <p class="text-gray-600">Food provides essential nutrients for overall health and well-being</p>
+                <p class="text-orange-500 font-bold">₹720</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="bg-orange-100 py-16">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold">What Our Customers Say</h2>
+            <div class="mt-6 flex flex-wrap justify-center gap-6">
+                <div class="w-72 bg-white p-4 rounded-lg shadow-md transform hover:scale-105 transition duration-300">
+                    <p class="text-gray-600">"Amazing food and great service!"</p>
+                    <h4 class="text-orange-500 font-bold mt-2">- Samay</h4>
+                </div>
+                <div class="w-72 bg-white p-4 rounded-lg shadow-md transform hover:scale-105 transition duration-300">
+                    <p class="text-gray-600">"I love their desserts. Highly recommend!"</p>
+                    <h4 class="text-orange-500 font-bold mt-2">- Bhavesh</h4>
+                </div>
+                <div class="w-72 bg-white p-4 rounded-lg shadow-md animate__animated animate__zoomIn animate__delay-2s transform hover:scale-105 transition duration-300">
+                    <p class="text-gray-600">"Fast delivery and fresh ingredients!"</p>
+                    <h4 class="text-orange-500 font-bold mt-2">- Balraj</h4>
+                </div>
+                <div class="w-72 bg-white p-4 rounded-lg shadow-md animate__animated animate__zoomIn animate__delay-3s transform hover:scale-105 transition duration-300">
+                    <p class="text-gray-600">"Best food experience ever. Will order again!"</p>
+                    <h4 class="text-orange-500 font-bold mt-2">- Maheep</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-orange-500 text-gray-300 py-10 mt-16">
+        <div class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- About Section -->
+            <div>
+                <h3 class="text-lg font-semibold text-white">About Us</h3>
+                <p class="mt-2 text-sm">
+                    We are committed to delivering the best food experience, offering a variety of dishes made from the freshest ingredients.
+                </p>
+            </div>
+    
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold text-white">Quick Links</h3>
+                <ul class="mt-2 space-y-2 text-sm">
+                    <li><a href="#home" class="hover:text-white transition duration-300">Home</a></li>
+                    <li><a href="#menu" class="hover:text-white transition duration-300">Menu</a></li>
+                    <li><a href="#top-dishes" class="hover:text-white transition duration-300">Top Dishes</a></li>
+                    <li><a href="#contact" class="hover:text-white transition duration-300">Contact Us</a></li>
+                </ul>
+            </div>
+    
+            <!-- Contact Info -->
+            <div>
+                <h3 class="text-lg font-semibold text-white">Contact Us</h3>
+                <ul class="mt-2 space-y-2 text-sm">
+                    <li><i class="fas fa-map-marker-alt text-orange-500"></i> Patna, Bihar</li>
+                    <li><i class="fas fa-phone text-orange-500"></i> +91 7644XXXXXX</li>
+                    <li><i class="fas fa-envelope text-orange-500"></i> support@fms.com</li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="border-t border-gray-700 mt-8 text-center pt-4">
+            <p class="text-sm">&copy; 2025 Design with ❤️ by Ritik | Food Management System | All Rights Reserved</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
